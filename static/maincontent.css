@@ -1,0 +1,21 @@
+h2.topic-header {
+    font-size: 200%;
+}
+
+ul.topic-ul, ul.topic-ul ul {
+    margin: 0;
+    list-style-type: disc;
+}
+
+ul.topic-ul li {
+    padding: .25em 0;
+}
+
+ul.topic-ul > li a,
+ul.topic-ul li a:visited,
+ul.topic-ul ul.topic-ul a,
+ul.topic-ul ul.topic-ul a:visited {
+    color: white;
+    text-decoration: underline;
+    padding: 1em 0em;
+}

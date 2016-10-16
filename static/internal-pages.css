@@ -1,0 +1,18 @@
+div#page-title {
+    font-size: 200%;
+    padding-bottom: 1em;
+}
+
+table.formula-table {
+    border-collapse: collapse;
+}
+
+table.formula-table tr td {
+    padding: .5em 1em .5em .4em;
+}
+
+table.formula-table,
+table.formula-table tr,
+table.formula-table tr td {
+    border: 2px solid white;
+}

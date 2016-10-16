@@ -1,0 +1,34 @@
+body {
+    background-color: #212020;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+p.bigger {
+    font-size: 130%;
+}
+
+div.maincontent {
+    color: white;
+    padding-top: 2em;
+    margin-bottom: 0;
+    padding: 1em;
+}
+
+.MathJax_Menu {
+    box-shadow: 0px 10px 20px black !important;
+    -webkit-box-shadow: 0px 10px 20px black !important;
+    -moz-box-shadow: 0px 10px 20px black !important;
+    -khtml-box-shadow: 0px 10px 20px black !important;
+}
+
+.left-math .MathJax_Display {
+    text-align: left !important;
+}
+
+div.proof-section .MathJax {
+    font-size: 1.3em;
+}
+div.proof {
+}

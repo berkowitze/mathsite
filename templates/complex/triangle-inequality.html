@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Triangle Inequality</title>
+    {% include 'header.html' %}
+</head>
+
+<body>
+    <nav>
+        {% include 'navbar.html' %}
+    </nav>
+    <div class='maincontent'>
+        <div id='page-title'>The Triangle Inequality</div>
+        <table class='formula-table'>
+            <tr>
+                <td>
+                    <!-- |z1 + z2| <= |z1| + |z2| -->
+                    $1. \left | z_0+z_1\right | \le \left | z_0\right | + \left | z_1 \right |$
+                </td>
+                <td>Proof</td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- |z1 + z2| >= |z1| - |z2| -->
+                    $2. \left | z_0+z_1\right | \ge \left | z_0\right | - \left | z_1 \right |$
+                    </td>
+                <td>Proof</td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- |z1 - z2| >= |z1| - |z2| -->
+                    $3. \left | z_0-z_1\right | \ge \left | z_0\right | - \left | z_1 \right |$
+                    </td>
+                <td>Proof</td>
+                </tr>
+            <tr>
+                <td>
+                    <!-- |z1 + z2 + z3| <= |z1| + |z2| + |z3| -->
+                    $4. \left | z_1 + z_2 + z_3 \right | \le |z_1| + |z_2| + |z_3|$
+                    </td>
+                <td>Proof</td>
+            </tr>
+        </table>
+        </p>
+        <div class='proof-section left-math'>
+            <p class='proof-header'>Proof of Triangle Inequality: $| z_0+z_1 | \le | z_0 | + | z_1 |$.</p>
+            <p class='pre-proof'>Before beginning the proof, recall:
+                <ol>
+                    <li>$z\,\bar{z} = |z|^2$ and $|z| = |-z|$</li>
+                    <li>$\left |z_1z_2\right | = \left | z_1\right |\left |z_2\right|$</li>
+                    <li>$\Re \{z\} = \frac {z + \bar{z}} {2}$</li>
+                    <li>$|\Re \{z\}| \le |z|$</li>
+                </ol>
+            </p>
+            <div class='proof'>
+                \begin{align}
+                    \left | z_0 + z_1 \right |^2
+                        & = \left (z_0 + z_1\right )\left (\overline{z_0 + z_1}\right ) \\
+                        & = \left (z_0 + z_1\right )\left (\overline{z_0} + \overline{z_1}\right ) \\
+                        & = z_0\overline{z_0} + z_1\overline{z_1} + \overline{z_0}z_1 + z_0\overline{z_1}.
+                \end{align}
+            </div>
+            Notice that $\overline{z_0}z_1 = \overline{z_0\overline{z_1}}.$ Therefore,
+            <div class='proof'>
+            \begin{align}
+                | z_0 + z_1 |^2 & = z_0\overline{z_0} + z_1\overline{z_1} + \overline{z_0\overline{z_1}} + z_0\overline{z_1} \\
+                                & = |z_0|^2 + |z_1|^2 + 2\Re \{z_0z_1\} \\
+                                & \le |z_0|^2 + z_1^2 + 2|z_0z_1| \\
+                                & = (|z_0|+|z_1|)^2
+            \end{align}
+            </div>
+            So we have
+            <div class='proof'>
+                $|z_0+z_1|^2 \le (|z_0|+|z_1|)^2.$
+            </div>
+            Take the sqaure root of both sides to get the triangle inequality:
+            <div class='proof'>
+                $|z_0+z_1|\le |z_0| + |z_1|$
+            </div>
+        </div>
+    </div>
+</body>
+</html>

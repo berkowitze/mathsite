@@ -1,0 +1,13 @@
+<link rel='shortcut icon' type='image/png' href='{{url_for("static", filename="favicon.png")}}'>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+    });
+</script>
+<script type='text/javascript' src='{{url_for("static", filename="jquery.min.js")}}'></script>
+<script src='{{url_for("static", filename="onload.js")}}'></script>
+
+<link rel='stylesheet' href='{{url_for("static", filename="mathstyle.css")}}'/>
+<link rel='stylesheet' href='{{url_for("static", filename="navstyle.css")}}'/>
+<link rel='stylesheet' href='{{url_for("static", filename="maincontent.css")}}'/>
