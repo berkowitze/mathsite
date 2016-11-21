@@ -1,5 +1,5 @@
 body {
-    background-color: #212020;
+    background-color: white;
     margin: 0px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -10,17 +10,17 @@ p.bigger {
 }
 
 div.maincontent {
-    color: white;
+    color: black;
     padding-top: 2em;
-    margin-bottom: 0;
+    margin-bottom: 0em;
     padding: 1em;
 }
 
 .MathJax_Menu {
-    box-shadow: 0px 10px 20px black !important;
-    -webkit-box-shadow: 0px 10px 20px black !important;
-    -moz-box-shadow: 0px 10px 20px black !important;
-    -khtml-box-shadow: 0px 10px 20px black !important;
+    /*box-shadow: 0px 10px 20px black !important;*/
+    /*-webkit-box-shadow: 0px 10px 20px white !important;*/
+    /*-moz-box-shadow: 0px 10px 20px white !important;*/
+    /*-khtml-box-shadow: 0px 10px 20px white !important;*/
 }
 
 .left-math .MathJax_Display {
@@ -29,6 +29,11 @@ div.maincontent {
 
 div.proof-section .MathJax {
     font-size: 1.3em;
+    padding-bottom: .2em;
 }
 div.proof {
+}
+p {
+    margin-bottom: .5em;
+    margin-top: .7em;
 }

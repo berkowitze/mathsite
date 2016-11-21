@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complex Numbers</title>
+    <order>1</order>
+    {% include 'header.html' %}
+</head>
+
+<body>
+    <nav>
+        {% include 'navbar.html' %}
+    </nav>
+    <div class='maincontent'>
+        <div id='page-title'>Complex Numbers</div>
+        <p>
+        Complex numbers are points in the $z$ plane. These points are represented as usual, $z_0=(x_0,y_0)$. However, complex numbers have several properties that make working in the complex plane advantageous in many situations.<br/>
+        The first of these properties is the multiplication of complex numbers.<br/> The product of two points in the complex plane, $z_1 = (x_1, y_1)$ and $z_2 = (x_2, y_2)$, is defined to be:
+        $$z_1 z_2 = (x_1 x_2 - y_1 y_2, x_1 y_2 + x_2 y_1)$$
+        This is the base assumption of the complex plane, and it is what leads to the use of complex numbers. If we represent the plane as a real axis and an imaginary axis, points $z_0 = (x, y)$ can be equivalently represented $z_0 = x + iy$, which has real part $\re(z_0)=x$ and imaginary part $\im(z_0) =y$.
+        </p>
+        We can easily see that this representation of points fulfills the definition of multiplication above:
+        $$(x_1 + iy_1)(x_2 + iy_2) = (x_1 x_2 - y_1 y_2 + i(x_1 y_2 + x_2 y_1)) = (x_1 x_2 - y_1 y_2, x_1 y_2 + x_2 y_1)$$
+        This uses the usual rule that $i^2 = -1$.
+    </div>
+</body>
+</html>
