@@ -1,6 +1,6 @@
 div#navbar {
-    background-color: #3C3A3A;
-    height: 3em;
+    background-color: #212020;
+    height: 2.3em;
 }
 
 div#navbar ul {
@@ -10,15 +10,15 @@ div#navbar ul {
 
 li.nav-li {
     display: inline-block;
-    height: 2.5em;
+    height: 1em;
     padding: .5em 1em 0em 1em;
     text-align: center;
 }
 
 li.nav-separator {
     display: inline-block;
-    font-size: 150%;
-    color: white;
+    font-size: 110%;
+    color: black;
     text-overflow: bold;
 }
 
@@ -26,10 +26,10 @@ li.nav-li a, li.nav-li a:visited {
     color: white;
     text-decoration: none;
     list-style: none;
-    font-size: 150%;
+    font-size: 110%;
     padding-top: .5em;
 }
 li.nav-li:hover {
-    background-color: #212020;
+    background-color: black;
     transition: background-color .5s;
 }

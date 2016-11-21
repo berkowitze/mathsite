@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Triangle Inequality</title>
+    <order>2</order>
     {% include 'header.html' %}
 </head>
 
@@ -48,8 +49,8 @@
                 <ol>
                     <li>$z\,\bar{z} = |z|^2$ and $|z| = |-z|$</li>
                     <li>$\left |z_1z_2\right | = \left | z_1\right |\left |z_2\right|$</li>
-                    <li>$\Re \{z\} = \frac {z + \bar{z}} {2}$</li>
-                    <li>$|\Re \{z\}| \le |z|$</li>
+                    <li>$\re \{z\} = \frac {z + \bar{z}} {2}$</li>
+                    <li>$|\re \{z\}| \le |z|$</li>
                 </ol>
             </p>
             <div class='proof'>
@@ -60,7 +61,7 @@
                         & = z_0\overline{z_0} + z_1\overline{z_1} + \overline{z_0}z_1 + z_0\overline{z_1}.
                 \end{align}
             </div>
-            Notice that $\overline{z_0}z_1 = \overline{z_0\overline{z_1}}.$ Therefore,
+            <p>Notice that $\overline{z_0}z_1 = \overline{z_0\overline{z_1}}.$ Therefore,</p>
             <div class='proof'>
             \begin{align}
                 | z_0 + z_1 |^2 & = z_0\overline{z_0} + z_1\overline{z_1} + \overline{z_0\overline{z_1}} + z_0\overline{z_1} \\
@@ -69,11 +70,11 @@
                                 & = (|z_0|+|z_1|)^2
             \end{align}
             </div>
-            So we have
+            <p>So we have</p>
             <div class='proof'>
                 $|z_0+z_1|^2 \le (|z_0|+|z_1|)^2.$
             </div>
-            Take the sqaure root of both sides to get the triangle inequality:
+            <p>Take the sqaure root of both sides to get the triangle inequality:</p>
             <div class='proof'>
                 $|z_0+z_1|\le |z_0| + |z_1|$
             </div>

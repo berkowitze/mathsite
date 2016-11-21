@@ -1,9 +1,3 @@
-<li class='topic-ul'><a href='complex/complex-numbers.html'>Complex Numbers</a>
-    <ul>
-        <li><a href='nested'>nested1</a></li>
-        <li><a href='nested'>nested2</a></li>
-    </ul>
-</li>
-<li><a href='complex/triangle-inequality'>The Triangle Inequality</a></li>
-<li><a href='complex/polar-repr.html'>Polar Representation of Complex Numbers</a></li>
-<li><a href='complex/cauchy-integral'>Cauchy's Integral Formula</a></li>
+{% for order, url, fname in file_list %}
+<li><a href='{{url}}'>{{fname}}</a></li>
+{% endfor %}

@@ -15,7 +15,23 @@ ul.topic-ul > li a,
 ul.topic-ul li a:visited,
 ul.topic-ul ul.topic-ul a,
 ul.topic-ul ul.topic-ul a:visited {
-    color: white;
+    color: black;
     text-decoration: underline;
     padding: 1em 0em;
+}
+
+#page-title {
+  font-size: 140%;
+}
+
+img.fig {
+  width: 10%;
+}
+
+body {
+  font-size: 24px;
+}
+
+order {
+  display: none !important;
 }
